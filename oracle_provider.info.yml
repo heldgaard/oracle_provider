@@ -1,0 +1,5 @@
+name: oracle_provider
+type: module
+description: Provides a service in order to perform queries to Oracle Database
+core: 8.x
+package: Custom
