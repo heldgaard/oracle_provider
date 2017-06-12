@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * Implements hook_requirements().
+ */
+function oracle_provider_requirements($phase) {
+  $requirements = [];
+
+  if ($phase == 'runtime') {
+
+    if (function_exists('oci_connect')) {
+
+    }
+
+    $requirements['oracle_provider'] = [
+      'title' => t('Oracle Provider'),
+      'value' => \Drupal::VERSION,
+      'severity' => REQUIREMENT_ERROR
+    ];
+
+
+  }
+  return $requirements;
+}

@@ -1,0 +1,24 @@
+oracle_provider.oracle_conn.*:
+  type: config_entity
+  label: 'Oracle connection config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    user:
+      type: string
+      label: 'Username'
+    password:
+      type: string
+      label: 'Password'
+    sid:
+      type: string
+      label: 'SID'
+    type:
+      type: string
+      label: 'Database type'
+    uuid:
+      type: string

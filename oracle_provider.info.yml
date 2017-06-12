@@ -1,4 +1,4 @@
-name: oracle_provider
+name: Oracle Provider
 type: module
 description: Provides a service in order to perform queries to Oracle Database
 core: 8.x

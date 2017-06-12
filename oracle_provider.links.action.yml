@@ -1,0 +1,6 @@
+entity.oracle_conn.add_form:
+  route_name: 'entity.oracle_conn.add_form'
+  title: 'Add Oracle Connection'
+  appears_on:
+    - entity.oracle_conn.collection
+

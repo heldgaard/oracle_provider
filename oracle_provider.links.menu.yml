@@ -1,0 +1,9 @@
+
+# Oracle Connection menu items definition
+entity.oracle_conn.collection:
+  title: 'Oracle Connections'
+  route_name: entity.oracle_conn.collection
+  description: 'List Oracle Connections (bundles)'
+  parent: system.admin_structure
+  weight: 99
+
