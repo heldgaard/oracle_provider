@@ -65,7 +65,7 @@ class OracleEntityForm extends EntityForm {
     ];
 
     $form['type'] = [
-      '#type' => 'select',
+      '#type' => 'radios',
       '#title' => 'Database type',
       '#options' => [
         'dev' => $this->t('Development'),
@@ -73,7 +73,7 @@ class OracleEntityForm extends EntityForm {
         'prod' => $this->t('Production'),
       ],
       '#default_value' => $oracle_conn->getType(),
-      '#description' => $this->t('Database type (development, staging or production).'),
+      '#description' => $this->t('The usage of the database (development, staging or production).'),
       '#required' => TRUE,
     ];
 
