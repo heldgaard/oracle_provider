@@ -1,11 +1,16 @@
 {
-  "name": "heldgaard/oracle_provider",
-  "type": "drupal-custom-module",
-  "description": "Oracle database provider",
-  "keywords": ["Drupal"],
-  "license": "GPL-2.0+",
-  "minimum-stability": "dev",
-  "require": {
-	"composer/installers"
-  }
+    "name": "heldgaard/oracle_provider",
+    "description": "Provides an Oracle database service fro Drupal\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[3~\u001b[Cr",
+    "type": "drupal-custom-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Heldgaard Madsen",
+            "email": "dennis@heldgaard.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"require": {
+        "composer/installers": "^1.3"
+    }
 }
