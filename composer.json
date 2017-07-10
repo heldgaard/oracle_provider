@@ -1,0 +1,11 @@
+{
+  "name": "heldgaard/oracle_provider",
+  "type": "drupal-custom-module",
+  "description": "Oracle database provider",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+	"composer/installers"
+  }
+}
